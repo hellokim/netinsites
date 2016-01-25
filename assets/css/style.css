@@ -139,13 +139,22 @@ article p {
     margin: 0;
   }
 
+.getintouch {
+  background-image: url("../images/contact.jpg");
+  text-align: center;
+}
   #contact {
-  	width: 20%;
+  	width: 60%;
+    color: #fffefb;
+    margin: auto;
+  }
+
+  #contact h1 {
+    margin: 0;
   }
 
   #contact input, #contact textarea {
-  	padding: 5px;
-  	width: 471px;
+  	padding: 1em;
   	font-family: Helvetica, sans-serif;
   	font-size: 1.4em;
   	margin: 0px 0px 10px 0px;
@@ -153,7 +162,7 @@ article p {
   }
 
   #contact textarea {
-  	height: 90px;
+  	height: 10%;
   }
 
   #contact textarea:focus, #contact input:focus {
@@ -162,7 +171,6 @@ article p {
 
   #contact input.submit-button {
   	width: 100px;
-  	float: right;
   }
 
   label {
