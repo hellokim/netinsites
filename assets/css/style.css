@@ -154,15 +154,13 @@ article p {
   }
 
   #contact input, #contact textarea {
-  	padding: 1em;
+
   	font-family: Helvetica, sans-serif;
   	font-size: 1.4em;
-  	margin: 0px 0px 10px 0px;
   	border: 2px solid #ccc;
   }
 
   #contact textarea {
-  	height: 10%;
   }
 
   #contact textarea:focus, #contact input:focus {
@@ -170,19 +168,23 @@ article p {
   }
 
   #contact input.submit-button {
-  	width: 100px;
+  	width: 6em;
   }
 
   label {
-  	float: left;
-  	text-align: right;
   	margin-right: 15px;
   	width: 100px;
   	padding-top: 5px;
   	font-size: 1.4em;
   }
 
+footer {
+  background-color: #1f1f1f;
+  color: #fffefb;
+  padding: 0;
+  margin: 0;
 
+}
 
 /*for tablet - inclusive*/
 @media only screen and (min-width : 44em) {
