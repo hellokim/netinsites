@@ -27,6 +27,18 @@ window.onload = function(){
 			images.lastElementChild.className = "current";
 		};
 	});
+
+
 };
+
+
+$(function(){
+
+	console.log("Hi Kim");
+
+
+});
+
+
 
 
